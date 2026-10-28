@@ -151,7 +151,7 @@ h1, h2, h3 { line-height: 1.2; letter-spacing: -.01em; color: var(--b2ai-ink); }
 
 /* ---------- Sections ---------- */
 .section { padding: var(--space-9) 0; }
-.section-head { display: flex; flex-direction: column; gap: .5rem; margin-bottom: var(--space-6); max-width: 720px; }
+.section-head { display: flex; flex-direction: column; gap: .5rem; margin-bottom: var(--space-6); }
 .section-eyebrow {
   align-self: flex-start;
   font-size: .9375rem;
@@ -170,7 +170,7 @@ h1, h2, h3 { line-height: 1.2; letter-spacing: -.01em; color: var(--b2ai-ink); }
   letter-spacing: -.025em;
   line-height: 1.12;
 }
-.section-sub { font-size: var(--text-md); color: var(--b2ai-text-soft); max-width: 60ch; }
+.section-sub { font-size: var(--text-md); color: var(--b2ai-text-soft); }
 
 @media (max-width: 560px) {
   .section { padding: var(--space-8) 0; }
